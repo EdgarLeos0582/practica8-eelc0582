@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Noticias</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  text-align: center;
+  font-size: 75px;
+  color: black;
+  font-family: "Old English Text MT", "Cloister Black", "UnifrakturMaguntia", serif;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(240, 240, 240);
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none; 
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+article {
+  -webkit-flex: 3; 
+  -ms-flex: 3; 
+  flex: 3; 
+  background-color: rgb(225, 225, 225);
+  padding: 10px;
+  text-align: left;
+}
+footer {
+  background-color: rgb(210, 210, 210);
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-family: "Old English Text MT", "Cloister Black", "UnifrakturMaguntia", serif;
+}
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <p>noticias</p>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="mexico.html">México</a></li>
+      <li><a href="mundo.html">Mundo</a></li>
+      <li><a href="suscribirse.html">Suscribirse</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Noticias en Juarez</h1>
+    <h4>Un hombre es atropellado por el JuarezBus</h4>
+    <p>Camino al hospital pierde la vida</p> </br>
+    <img src="bus.jpg" alt="" width="500" height="100">
+  </article>
+</section>
+
+<footer>
+  <p>Edgar Enrique Leos Chavez 5°I Programacion 24308051280582</p>
+</footer>
+
+</body>
+</html
